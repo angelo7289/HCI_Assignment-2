@@ -1,0 +1,24 @@
+body, html
+
+
+.bg
+{background-image: url('HCI_Assignment-2_images/pexels-josh-hild-3859774.jpg');
+
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+fieldset
+{
+  background-color:#CCC;
+  max-width:400px;
+  padding:16px;
+  border-radius: 5px;
+  margin:auto;
+}
+.legend
+{
+  margin-bottom:0px;
+  margin-left:16px;
+}

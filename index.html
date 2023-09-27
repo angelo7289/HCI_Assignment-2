@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> HCI ASSIGNMENT-02 </title>
+<link rel="stylesheet" href="main.css">
+  <style>
+    .button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #008CBA;} /* Blue */
+.button2 {background-color: #4CAF50;} /* Green */
+
+    table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 6px;
+            }
+    
+  </style>
+
+</head>
+
+<body>
+<div style="text-align: center;">
+  <h1> HCI ASSIGNMENT-02 </h1>
+</div>
+<br>
+<fieldset>
+<form>
+  <label for="fname">First name</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">E-Mail</label>
+  <input type="text" id="email" name="email"><br><br>
+  <label for="phonenumber">Phone number</label>
+  <input type="text" id="phonenumber" name="phonenumber"><br><br>
+  <label for="address">Address</label>
+  <input type="text" id="address" name="address"><br><br>
+</form>
+  <br>
+<fieldset>
+  <legend> Schedule Tab </legend>
+  <table>
+    <tr>
+      <th colspan="2">Days (from - to)</th>
+      <th>Start</th>
+      <th>End</th>
+      <th colspan="2">Competitive events schedule</th>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>Friday</td>
+      <td>9:00</td>
+      <td>11:00</td>
+      <td>Volleyball</td>
+      <td rowspan="1">Basket</td>
+    </tr>
+    <tr>
+      <td>Saturday</td>
+      <td>Sunday</td>
+      <td>15:00</td>
+      <td>17:00</td>
+      <td>Football</td>
+      <td rowspan="1">Golf</td>
+    </tr>
+  </table>
+</fieldset>
+
+<h4>Select date:
+  <input type="datetime-local" id="Test_DatetimeLocal">
+</h4>
+
+
+<h3>Select the class:</h3>
+<input type="radio" id="pro" name="Pro/Semi-Pro/Amateur" value="Pro">
+<label for="pro">Pro</label><br>
+<input type="radio" id="semi-pro" name="Pro/Semi-Pro/Amateur" value="Semi-Pro">
+<label for="semi-pro">Semi-Pro</label><br>
+<input type="radio" id="amateur" name="Pro/Semi-Pro/Amateur" value="Amateur">
+<label for="amateur">Amateur</label><br><br>
+
+
+
+<h3> Policies </h3>
+<input type="checkbox" id="Sportsmen-agreement" name="Sportsmen-agreement" value="Sportsmen-agreement">
+<label for="Sportsmen-agreement">I accept the Terms</label><br>
+<input type="checkbox" id="Extra-luggage" name="Extra-luggage" value="Extra-luggage">
+<label for="Extra-luggage">I accept the Privacy Policy</label><br>
+
+<button class="button button1">Policies</button>
+<button class="button button2">Continue</button>
+</body>
+</html>
+
+</fieldset>
